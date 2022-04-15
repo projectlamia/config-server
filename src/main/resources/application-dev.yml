@@ -6,9 +6,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/projectlamia/config-repo
+          uri: https://github.com/projectlamia/config-repo.git
           username: projectlamia
-          password: Vamia123!
+          password: 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
+          skip-ssl-validation: true
           delete-untracked-branches: true
           search-paths: '{application}'
           force-pull: true
+          ignore-local-ssh-settings: true
+          default-label: master
