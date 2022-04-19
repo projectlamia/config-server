@@ -11,7 +11,7 @@ spring:
           password: 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
           skip-ssl-validation: true
           delete-untracked-branches: true
-          search-paths: '{application}'
+          search-paths: '{application}-{profile}'
           force-pull: true
           ignore-local-ssh-settings: true
           default-label: master
